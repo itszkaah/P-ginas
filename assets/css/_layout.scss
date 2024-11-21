@@ -1,0 +1,113 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #1b3f69;
+    color: #000000;
+}
+
+/* Cabeçalhos */
+h1 {
+    font-family: 'Roboto Slab', serif; /* Fonte mais destacada para títulos */
+    color: #265994;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+}
+/* Sumário */
+nav.sumario {
+    background: #265994;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav.sumario h2 {
+    font-family: 'Roboto Slab', serif;
+    margin: 0 0 10px 0;
+}
+
+nav.sumario ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav.sumario li {
+    margin: 5px 0;
+}
+
+nav.sumario a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav.sumario a:hover {
+    text-decoration: underline;
+}
+
+/* Parágrafos */
+p {
+    font-family: 'Open Sans', sans-serif; /* Fonte elegante para parágrafos */
+    color: #444;
+    line-height: 1.8;
+    margin: 10px 0;
+}
+
+/* Layout das páginas */
+div[class^="pagina"] {
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Listas */
+ul, ol {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+ul li, ol li {
+    margin: 5px 0;
+}
+
+/* Sublistas */
+ul ul, ol ul {
+    padding-left: 15px;
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Destaque de código */
+.comandos li {
+    font-family: 'Courier New', monospace;
+    background: #f9f9f9;
+    padding: 5px 10px;
+    border-left: 3px solid #4a90e2;
+    margin: 5px 0;
+    display: inline-block;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    div[class^="pagina"] {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    ul, ol {
+        padding-left: 15px;
+    }
+}
